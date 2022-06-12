@@ -2,7 +2,7 @@
 
 BEGIN;
 
-    drop role web_anon;
     drop schema api;
+    drop role web_anon;
 
 COMMIT;
